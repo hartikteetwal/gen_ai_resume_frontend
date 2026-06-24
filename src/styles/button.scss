@@ -1,0 +1,23 @@
+.button {
+    border: none;
+    outline: none;
+    padding-inline: 1.5rem;
+    padding-block: 0.75rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease-in-out;
+
+    &.primary-button {
+        background: linear-gradient(135deg, #2563eb, #7c3aed);
+        color: white;
+        box-shadow: 0 10px 20px rgba(59, 130, 246, 0.25);
+    }
+
+    &:active {
+        transform: scale(1.07);
+    }
+}
